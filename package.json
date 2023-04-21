@@ -51,7 +51,14 @@
     ]
   },
   "prettier": "@shelf/prettier-config",
-  "dependencies": {},
+  "dependencies": {
+    "@betterer/betterer": "5.4.0",
+    "@betterer/cli": "5.4.0",
+    "@betterer/coverage": "5.4.0",
+    "@betterer/eslint": "5.4.0",
+    "@betterer/regexp": "5.4.0",
+    "@betterer/typescript": "5.4.0"
+  },
   "devDependencies": {
     "@betterer/betterer": "5.4.0",
     "@betterer/cli": "5.4.0",
@@ -69,14 +76,6 @@
     "jest": "29.5.0",
     "lint-staged": "13.2.1",
     "prettier": "2.8.7"
-  },
-  "peerDependencies": {
-    "@betterer/betterer": "5.4.0",
-    "@betterer/cli": "5.4.0",
-    "@betterer/coverage": "5.4.0",
-    "@betterer/eslint": "5.4.0",
-    "@betterer/regexp": "5.4.0",
-    "@betterer/typescript": "5.4.0"
   },
   "engines": {
     "node": ">=14"
