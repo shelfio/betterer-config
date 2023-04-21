@@ -18,7 +18,9 @@
   "module": "./index.js",
   "types": "./lib/index.d.ts",
   "files": [
-    "frontend.js"
+    "frontend.js",
+    "lib/",
+    "index.js"
   ],
   "keywords": [
     "betterer",
