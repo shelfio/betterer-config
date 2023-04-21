@@ -1,8 +1,8 @@
 {
   "name": "@shelf/betterer-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "betterer-config",
-  "repository":"https://github.com/shelfio/betterer-config",
+  "repository": "https://github.com/shelfio/betterer-config",
   "license": "MIT",
   "author": {
     "name": "Mykyta Khmel",
