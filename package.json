@@ -9,9 +9,13 @@
     "url": "https://shelf.io"
   },
   "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./index.js"
+    },
     "./frontend": {
-      "import": "./frontend.js",
-      "require": "./frontend.js"
+      "require": "./lib/frontend.js",
+      "import": "./frontend.js"
     }
   },
   "main": "./lib/index.js",
