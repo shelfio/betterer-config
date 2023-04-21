@@ -1,8 +1,10 @@
 {
-  "extends": "@shelf/tsconfig/backend",
+  "extends": "@shelf/tsconfig/frontend",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "declaration": true,
+    "declarationDir": "lib",
   },
   "exclude": ["node_modules"],
-  "include": ["src"]
+  "include": ["frontend.js", "index.js"]
 }

@@ -14,8 +14,9 @@
       "require": "./frontend.js"
     }
   },
-  "main": "./frontend.js",
-  "module": "./frontend.js",
+  "main": "./lib/index.js",
+  "module": "./index.js",
+  "types": "./lib/index.d.ts",
   "files": [
     "frontend.js"
   ],
@@ -27,6 +28,8 @@
   ],
   "type": "module",
   "scripts": {
+    "build": "rm -rf lib/ && yarn build:types && node esbuild.js",
+    "build:types": "tsc --emitDeclarationOnly --noEmit false",
     "lint": "yarn lint:ci --fix",
     "lint:ci": "eslint . --ext .js,.ts,.json"
   },
@@ -50,8 +53,10 @@
     "@betterer/eslint": "5.4.0",
     "@betterer/regexp": "5.4.0",
     "@betterer/typescript": "5.4.0",
+    "@shelf/esbuild-config": "0.1.2",
     "@shelf/eslint-config": "2.29.0",
     "@shelf/prettier-config": "1.0.0",
+    "@shelf/tsconfig": "0.0.11",
     "@types/node": "16",
     "eslint": "8.38.0",
     "husky": "8.0.3",
