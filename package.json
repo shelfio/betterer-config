@@ -2,6 +2,7 @@
   "name": "@shelf/betterer-config",
   "version": "0.0.4",
   "description": "betterer-config",
+  "repository":"https://github.com/shelfio/betterer-config",
   "license": "MIT",
   "author": {
     "name": "Mykyta Khmel",
